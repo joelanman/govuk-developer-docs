@@ -7,7 +7,7 @@
   <%= table_of_contents html, max_level: 3 %>
 <% end %>
 
-<% wrap_layout :layout_with_sidebar do %>
+<% wrap_layout :core do %>
   <% if current_page.data.section == "Icinga alerts" %>
     <div class="information-callout">
       This page describes what to do in case of an
